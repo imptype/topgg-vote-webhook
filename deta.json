@@ -1,0 +1,16 @@
+{
+	"name": "topgg_vote_webhook",
+	"description": "Relay server for top.gg vote webhooks",
+	"env": [
+		{
+			"key": "DISCORD_WEBHOOK_URL",
+			"description": "Discord Webhook URL",
+			"required": true
+		},
+		{
+			"key": "TOPGG_AUTH_TOKEN",
+			"description": "Top.gg Authorization Token",
+			"required": true
+		}
+	]
+}
