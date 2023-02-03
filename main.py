@@ -16,7 +16,7 @@ async def vote(request : Request, response : Response):
 
   if request.headers.get('Authorization') != auth:
     response.status_code = 401 # Unauthorized
-    return
+    return 401
 
   data = await request.json()
   text = '<@{}> upvoted <@{}>!'.format(data['user'], data['bot'])
