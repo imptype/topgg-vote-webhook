@@ -1,6 +1,7 @@
 ## Information
 
 This is a relay server that posts [Top.gg](https://top.gg) vote events as a basic Discord message through a Discord webhook. 
+
 It's great if you don't have a server or you don't want to give your IP to Top.gg.
 
 ## Running
