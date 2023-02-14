@@ -1,3 +1,6 @@
+# UPDATE
+Use the website https://webhook-topgg.com/ (by top.gg staff member) instead, it has everything already. 
+
 ## Information
 
 This is a relay server that posts [Top.gg](https://top.gg) vote events as a basic Discord message through a Discord webhook. 
